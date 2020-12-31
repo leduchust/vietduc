@@ -513,3 +513,7 @@ p {
 .center-me {
   margin: 0 auto;
 }
+audio {
+    width: 300px;
+    height: 54px;
+}
