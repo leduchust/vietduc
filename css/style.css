@@ -376,18 +376,18 @@ p {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 100vh;
+	height: 1200px;
 }
 
 .background-1 {
-	background-image: url("../img/back2.jpg");
+	background-image: url("../img/IMG_4745.JPG");
 }
 
 .background-2 {
 	background-image: url("../img/vietducfn.jpg");
 }
 .background-3 {
-	background-image: url("../img/back3.jpg");
+	background-image: url("../img/hn2021.png");
 }
 .split-image-right {
 	padding-top :  10rem;
@@ -516,4 +516,20 @@ p {
 audio {
     width: 300px;
     height: 54px;
+}
+
+.text{
+	font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 9999;
+	transform: translate(-50%,-50%);
+	color: rgba(12, 70, 136,0.7);
+	width: 560px;
+	height: 80px;
+	background: rgb(245, 255, 245,0.3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
