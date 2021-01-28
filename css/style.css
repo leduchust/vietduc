@@ -365,7 +365,10 @@ p {
 .RightContent {
 	overflow: auto;
 }
+.MidContent {
+	overflow: 100;
 
+}
 @media (min-width: 1200px) {
 	.Wrapper>div {
 		height: 100%;
@@ -387,7 +390,7 @@ p {
 	background-image: url("../img/vietducfn.jpg");
 }
 .background-3 {
-	background-image: url("../img/hn2021.png");
+	background-image: url("../img/back.jpg");
 }
 .split-image-right {
 	padding-top :  10rem;
